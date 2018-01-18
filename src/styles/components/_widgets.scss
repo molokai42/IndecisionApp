@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css?family=Cuprum');
+
+.widget {
+    background: $blue-light;
+    margin-bottom: $xl-size;
+}
+.widget-header {
+    background: $blue;
+    color: $purps;
+    display: flex;
+    justify-content: space-between;
+    padding: $m-size;
+    
+    font-family: 'Cuprum', sans-serif;
+    font-size: $m-size;
+
+}
+.widget-header__title {
+    margin: 0;
+}
+
+.widget-text {
+ margin: 0;
+ text-align: center;
+ padding: .5rem;
+ font-size: $m-size;
+ 
+ border-bottom: 1px solid lighten($blue-light, 5%) !important;
+ 
+}

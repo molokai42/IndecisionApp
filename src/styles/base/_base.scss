@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css?family=Lemon|Ruslan+Display');;
+
+body {
+    background: $dark_blue;
+    font-family: 'Lemon', cursive;
+
+}
+
+h1 {
+    font-size: $l-size;
+}
+html {
+    font-size: 62.5%
+}
+
+button {
+ cursor: pointer;
+}
+button:disabled {
+    cursor: default;
+}

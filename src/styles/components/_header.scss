@@ -1,0 +1,25 @@
+.header {
+    background: $off-black;;
+    color: $purple;
+    margin-bottom: $s-size;
+    border-bottom: .5rem solid darken($off-black, 20%);
+    padding: $m-size 0;
+}
+
+.header__title {
+    font-size: 3.2rem;
+    margin: 0;
+}
+
+.header__subtitle {
+    color: $blue-light;
+    font-size: $m-size;
+    font-weight: 500;
+    margin: 0;
+}
+
+@media (min-width: $desktop-breakpoint) {
+    .header {
+        margin-bottom: $l-size;
+    }
+    }
